@@ -1,5 +1,3 @@
-# Module 12 Report Template
-
 ## Overview of the Analysis
 
 * The purpose of the analysis:
@@ -24,7 +22,7 @@ Recall: Recall, also known as sensitivity or true positive rate, measures the pr
 F1-Score: The F1-score is the harmonic mean of precision and recall. It provides a balanced measure that considers both false positives and false negatives.
 Accuracy: Accuracy measures the proportion of correctly predicted instances out of all instances.
 
-Prediction: Once a model is trained and evaluated, I have then used it to make predictions on new data.
+Prediction: Once a model is trained and evaluated, I have then used it to make predictions on test data.
 
 * Models used during this excercise are as below:
 
@@ -53,74 +51,8 @@ It's effective for local patterns and non-linear relationships. The KNN model ac
 
 ## Results
 
-Logistic Regression Classification Report: 
-               precision    recall  f1-score   support
+![Alt text](image-1.png)
 
-           0       0.99      1.00      1.00     18719
-           1       0.91      0.85      0.88       665
-
-    accuracy                           0.99     19384
-   macro avg       0.95      0.92      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
-
-Logistic Regression Accuracy Score: 0.9918489475856377 
-
------------------------------------------------------------
-
-SVM Classification Report: 
-               precision    recall  f1-score   support
-
-           0       0.99      1.00      1.00     18665
-           1       0.98      0.84      0.91       719
-
-    accuracy                           0.99     19384
-   macro avg       0.99      0.92      0.95     19384
-weighted avg       0.99      0.99      0.99     19384
-
-SVM Accuracy Score: 0.9936029715229054 
-
------------------------------------------------------------
-
-Decision Tree Classification Report: 
-               precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     18759
-           1       0.85      0.84      0.85       625
-
-    accuracy                           0.99     19384
-   macro avg       0.92      0.92      0.92     19384
-weighted avg       0.99      0.99      0.99     19384
-
-Decision Tree Accuracy Score: 0.9901981015270326 
-
------------------------------------------------------------
-
-Random Forrest Classification Report: 
-               precision    recall  f1-score   support
-
-           0       0.99      1.00      1.00     18725
-           1       0.90      0.85      0.87       659
-
-    accuracy                           0.99     19384
-   macro avg       0.95      0.92      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
-
-Random Forrest Accuracy Score: 0.9917457697069748 
-
------------------------------------------------------------
-
-KNN Classification Report: 
-               precision    recall  f1-score   support
-
-           0       0.99      1.00      1.00     18703
-           1       0.93      0.84      0.88       681
-
-    accuracy                           0.99     19384
-   macro avg       0.96      0.92      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
-
-KNN Accuracy Score: 0.9921584812216261
------------------------------------------------------------
 
 ## Summary
 
